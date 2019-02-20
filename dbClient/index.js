@@ -5,7 +5,7 @@ const client = new Client({
   host: 'localhost',
   database: 'songs',
   password: 'admin',
-  port: 5432,
+  port: 5432
 })
 client.connect();
 
